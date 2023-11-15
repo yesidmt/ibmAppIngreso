@@ -1,0 +1,6 @@
+framework module Pods_imbAppIngresoTests {
+  umbrella header "Pods-imbAppIngresoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

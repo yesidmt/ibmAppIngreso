@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "025CD1E4-AA9B-4E7A-A873-B6CCFE365D48"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF84A8DE-EFD4-4959-B2BD-D885C68C96B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/View/EarthquakesView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "setupDatePicker()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EDF62EE-357D-4CD1-BCCE-CCCB66CB7D83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "searchEarthQaukes(fechaini:fechafin:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EDF62EE-357D-4CD1-BCCE-CCCB66CB7D83 - acb0ee29ddcb36b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "4EDF62EE-357D-4CD1-BCCE-CCCB66CB7D83 - acb0ee29ddcb3511"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "4EDF62EE-357D-4CD1-BCCE-CCCB66CB7D83 - acb0ee29ddcb3530"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD514990-1F94-4FD5-ACDC-8AC7511A6949"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "searchEarthQaukes(fechaini:fechafin:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD514990-1F94-4FD5-ACDC-8AC7511A6949 - acb0ee29ddcb36f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "BD514990-1F94-4FD5-ACDC-8AC7511A6949 - acb0ee29ddcb355f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BD514990-1F94-4FD5-ACDC-8AC7511A6949 - acb0ee29ddcb35fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imbAppIngreso.EarthquakesInteractor.searchEarthQaukes(fechaini: Swift.String, fechafin: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;imbAppIngreso.Feature&gt;, imbAppIngreso.EarthquakeError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C433F51E-AB20-4494-AC59-938FFC68A58D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/Interactor/EarthquakesInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "searchEarthQaukes(fechaini:fechafin:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

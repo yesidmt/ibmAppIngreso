@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NodataCell" rowHeight="127" id="pYr-3r-vwi" customClass="NodataCell" customModule="imbAppIngreso" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="127"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pYr-3r-vwi" id="qca-IQ-k8o">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List is empty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apk-7G-zYG">
+                        <rect key="frame" x="118" y="46" width="157" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="157" id="CrA-J4-zIR"/>
+                            <constraint firstAttribute="height" constant="35" id="efJ-GQ-19y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="apk-7G-zYG" firstAttribute="leading" secondItem="qca-IQ-k8o" secondAttribute="leading" constant="118" id="2Wk-rx-sQg"/>
+                    <constraint firstAttribute="trailing" secondItem="apk-7G-zYG" secondAttribute="trailing" constant="118" id="O78-JM-MRP"/>
+                    <constraint firstItem="apk-7G-zYG" firstAttribute="top" secondItem="qca-IQ-k8o" secondAttribute="top" constant="46" id="aZd-UA-loH"/>
+                    <constraint firstAttribute="bottom" secondItem="apk-7G-zYG" secondAttribute="bottom" constant="46" id="fzX-Cu-XPy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="319.84732824427482" y="12.323943661971832"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "59B721EB-2CFE-43DC-AD9A-167FCE1DA382"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF3FC925-0BBC-43EE-8A8A-ABB14C1EB97F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/LoginModule/Router/LoginRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "goToRegister()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AA2FFE7-5606-4A2B-9EC8-3CBA806F32A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/LoginModule/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "register(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38F1C276-CCDD-4EF6-B909-C264C1C96EB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/LoginModule/Presenter/LoginPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "goToRegister()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C38CEE2F-EBDA-48A5-AF5E-16BFADCC7136"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/RegisterModule/Interactor/RegisterInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "register(email:nombre:apellido:clave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FAA9382-DD0E-4919-900C-D813A5EF0BA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/RegisterModule/Interactor/RegisterInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "register(email:nombre:apellido:clave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23CFC3E8-A8AE-4B04-B7EB-7194847D48A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/RegisterModule/Interactor/RegisterInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "register(email:nombre:apellido:clave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "833767F0-C80A-4A38-A75E-E21BBD5ABA8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/RegisterModule/Interactor/RegisterInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "register(email:nombre:apellido:clave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "850B6782-965C-4220-A569-FDD395C35A4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/RegisterModule/Presenter/RegisterPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "register(email:nombre:apellido:clave:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "850B6782-965C-4220-A569-FDD395C35A4B - 532c49eb591aac76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imbAppIngreso.RegisterPresenter.Register(email: Swift.String, nombre: Swift.String, apellido: Swift.String, clave: Swift.String) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/RegisterModule/Presenter/RegisterPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "850B6782-965C-4220-A569-FDD395C35A4B - 532c49eb591aac76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imbAppIngreso.RegisterPresenter.register(email: Swift.String, nombre: Swift.String, apellido: Swift.String, clave: Swift.String) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/RegisterModule/Presenter/RegisterPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "850B6782-965C-4220-A569-FDD395C35A4B - 532c49eb591aac76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imbAppIngreso.RegisterPresenter.register(email: Swift.String, nombre: Swift.String, apellido: Swift.String, clave: Swift.String) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/RegisterModule/Presenter/RegisterPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C28AA80D-024D-44F3-86B3-2E39DE358B01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/View/EarthquakesView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "closeSession(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C28AA80D-024D-44F3-86B3-2E39DE358B01 - f7794057209258c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in imbAppIngreso.EarthquakesView.closeSession(Any) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/View/EarthquakesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "C28AA80D-024D-44F3-86B3-2E39DE358B01 - f779405720924782"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in imbAppIngreso.EarthquakesView.closeSession(Any) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/View/EarthquakesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "408011B3-D93E-4D02-94BA-AF144187C78C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/Router/EarthquakesRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "changeRootViewController(to:animated:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "408011B3-D93E-4D02-94BA-AF144187C78C - 26cd9548eab085a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imbAppIngreso.EarthquakesRouter.changeRootViewController(to: __C.UIViewController, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Router/EarthquakesRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "408011B3-D93E-4D02-94BA-AF144187C78C - dec169e747189e26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIScene) -&gt; Swift.Bool in imbAppIngreso.EarthquakesRouter.changeRootViewController(to: __C.UIViewController, animated: Swift.Bool) -&gt; ()"
+                  moduleName = "imbAppIngreso"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yesidmendoza/Desktop/ibmPrueba/imbAppIngreso/imbAppIngreso/Earthquakes/Router/EarthquakesRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B309B9ED-225F-4569-9A05-314C2A5F0B39"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imbAppIngreso/Earthquakes/Router/EarthquakesRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "goToLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

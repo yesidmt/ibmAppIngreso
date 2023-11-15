@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069BF9CF7D4C9C7197761016 /* Pods_imbAppIngreso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490FCB04D43D8AE2045E52F6 /* Pods_imbAppIngreso.framework */; };
+		33F1F4AA2B03FBEB005AEDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4A92B03FBEB005AEDB4 /* AppDelegate.swift */; };
+		33F1F4AC2B03FBEB005AEDB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4AB2B03FBEB005AEDB4 /* SceneDelegate.swift */; };
+		33F1F4B42B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4B22B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodeld */; };
+		33F1F4B62B03FBEC005AEDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F4B52B03FBEC005AEDB4 /* Assets.xcassets */; };
+		33F1F4B92B03FBEC005AEDB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F4B72B03FBEC005AEDB4 /* LaunchScreen.storyboard */; };
+		33F1F4C42B03FBEC005AEDB4 /* imbAppIngresoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4C32B03FBEC005AEDB4 /* imbAppIngresoTests.swift */; };
+		33F1F4CE2B03FBEC005AEDB4 /* imbAppIngresoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4CD2B03FBEC005AEDB4 /* imbAppIngresoUITests.swift */; };
+		33F1F4D02B03FBEC005AEDB4 /* imbAppIngresoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4CF2B03FBEC005AEDB4 /* imbAppIngresoUITestsLaunchTests.swift */; };
+		33F1F4DD2B040255005AEDB4 /* FactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4DC2B040255005AEDB4 /* FactoryApp.swift */; };
+		33F1F4E22B040396005AEDB4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4E12B040396005AEDB4 /* LoginView.swift */; };
+		33F1F4E72B0405F3005AEDB4 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4E62B0405F3005AEDB4 /* LoginPresenter.swift */; };
+		33F1F4E92B040626005AEDB4 /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4E82B040626005AEDB4 /* LoginContract.swift */; };
+		33F1F4EB2B0406CD005AEDB4 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4EA2B0406CD005AEDB4 /* LoginInteractor.swift */; };
+		33F1F4EE2B040D3D005AEDB4 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4ED2B040D3D005AEDB4 /* LoginRouter.swift */; };
+		33F1F4F02B040F2C005AEDB4 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F4EF2B040F2C005AEDB4 /* LoginView.xib */; };
+		33F1F4FE2B04213E005AEDB4 /* RegisterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4F42B04213E005AEDB4 /* RegisterContract.swift */; };
+		33F1F4FF2B04213E005AEDB4 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4F62B04213E005AEDB4 /* RegisterPresenter.swift */; };
+		33F1F5002B04213E005AEDB4 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F4F82B04213E005AEDB4 /* RegisterView.xib */; };
+		33F1F5012B04213E005AEDB4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4F92B04213E005AEDB4 /* RegisterView.swift */; };
+		33F1F5022B04213E005AEDB4 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4FB2B04213E005AEDB4 /* RegisterInteractor.swift */; };
+		33F1F5032B04213E005AEDB4 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F4FD2B04213E005AEDB4 /* RegisterRouter.swift */; };
+		33F1F50B2B0444C6005AEDB4 /* EarthquakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F50A2B0444C6005AEDB4 /* EarthquakesView.swift */; };
+		33F1F50D2B0444D0005AEDB4 /* EarthquakesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F50C2B0444D0005AEDB4 /* EarthquakesView.xib */; };
+		33F1F50F2B0445F1005AEDB4 /* EarthquakesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F50E2B0445F1005AEDB4 /* EarthquakesInteractor.swift */; };
+		33F1F5112B0445FC005AEDB4 /* EarthquakesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5102B0445FC005AEDB4 /* EarthquakesRouter.swift */; };
+		33F1F5132B044608005AEDB4 /* EarthquakesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5122B044608005AEDB4 /* EarthquakesPresenter.swift */; };
+		33F1F5152B044613005AEDB4 /* EarthquakesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5142B044613005AEDB4 /* EarthquakesEntity.swift */; };
+		33F1F5172B04468A005AEDB4 /* EarthquakesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5162B04468A005AEDB4 /* EarthquakesContract.swift */; };
+		33F1F51A2B047EA6005AEDB4 /* EarthquakesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5192B047EA6005AEDB4 /* EarthquakesCell.swift */; };
+		33F1F51C2B047F07005AEDB4 /* EarthquakesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F51B2B047F07005AEDB4 /* EarthquakesCell.xib */; };
+		33F1F5202B0545A2005AEDB4 /* EarthquakesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F51F2B0545A2005AEDB4 /* EarthquakesDetailView.xib */; };
+		33F1F5222B0545AD005AEDB4 /* EarthquakesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5212B0545AD005AEDB4 /* EarthquakesDetailView.swift */; };
+		33F1F5242B056443005AEDB4 /* NodataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F5232B056443005AEDB4 /* NodataCell.swift */; };
+		33F1F5262B05644B005AEDB4 /* NodataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F1F5252B05644B005AEDB4 /* NodataCell.xib */; };
+		B48ABFB84E190E91CB1A2AD5 /* Pods_imbAppIngreso_imbAppIngresoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD62DE4D00FF146A436069A /* Pods_imbAppIngreso_imbAppIngresoUITests.framework */; };
+		D5C65B106A673CF7C63888E7 /* Pods_imbAppIngresoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D099BF4C479D97087548E60 /* Pods_imbAppIngresoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F1F4C02B03FBEC005AEDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F1F49E2B03FBEB005AEDB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F1F4A52B03FBEB005AEDB4;
+			remoteInfo = imbAppIngreso;
+		};
+		33F1F4CA2B03FBEC005AEDB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F1F49E2B03FBEB005AEDB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F1F4A52B03FBEB005AEDB4;
+			remoteInfo = imbAppIngreso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF55D0FBBE17595D4D604BA /* Pods-imbAppIngreso-imbAppIngresoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngreso-imbAppIngresoUITests.debug.xcconfig"; path = "Target Support Files/Pods-imbAppIngreso-imbAppIngresoUITests/Pods-imbAppIngreso-imbAppIngresoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27C3EDB68BF806BF357CEE01 /* Pods-imbAppIngreso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngreso.debug.xcconfig"; path = "Target Support Files/Pods-imbAppIngreso/Pods-imbAppIngreso.debug.xcconfig"; sourceTree = "<group>"; };
+		33F1F4A62B03FBEB005AEDB4 /* imbAppIngreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imbAppIngreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F1F4A92B03FBEB005AEDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33F1F4AB2B03FBEB005AEDB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33F1F4B32B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imbAppIngreso.xcdatamodel; sourceTree = "<group>"; };
+		33F1F4B52B03FBEC005AEDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F1F4B82B03FBEC005AEDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33F1F4BA2B03FBEC005AEDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F1F4BF2B03FBEC005AEDB4 /* imbAppIngresoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imbAppIngresoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F1F4C32B03FBEC005AEDB4 /* imbAppIngresoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imbAppIngresoTests.swift; sourceTree = "<group>"; };
+		33F1F4C92B03FBEC005AEDB4 /* imbAppIngresoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imbAppIngresoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F1F4CD2B03FBEC005AEDB4 /* imbAppIngresoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imbAppIngresoUITests.swift; sourceTree = "<group>"; };
+		33F1F4CF2B03FBEC005AEDB4 /* imbAppIngresoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imbAppIngresoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33F1F4DC2B040255005AEDB4 /* FactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryApp.swift; sourceTree = "<group>"; };
+		33F1F4E12B040396005AEDB4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		33F1F4E62B0405F3005AEDB4 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		33F1F4E82B040626005AEDB4 /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
+		33F1F4EA2B0406CD005AEDB4 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		33F1F4ED2B040D3D005AEDB4 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		33F1F4EF2B040F2C005AEDB4 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		33F1F4F42B04213E005AEDB4 /* RegisterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterContract.swift; sourceTree = "<group>"; };
+		33F1F4F62B04213E005AEDB4 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		33F1F4F82B04213E005AEDB4 /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		33F1F4F92B04213E005AEDB4 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		33F1F4FB2B04213E005AEDB4 /* RegisterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		33F1F4FD2B04213E005AEDB4 /* RegisterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		33F1F50A2B0444C6005AEDB4 /* EarthquakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesView.swift; sourceTree = "<group>"; };
+		33F1F50C2B0444D0005AEDB4 /* EarthquakesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarthquakesView.xib; sourceTree = "<group>"; };
+		33F1F50E2B0445F1005AEDB4 /* EarthquakesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesInteractor.swift; sourceTree = "<group>"; };
+		33F1F5102B0445FC005AEDB4 /* EarthquakesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesRouter.swift; sourceTree = "<group>"; };
+		33F1F5122B044608005AEDB4 /* EarthquakesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesPresenter.swift; sourceTree = "<group>"; };
+		33F1F5142B044613005AEDB4 /* EarthquakesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesEntity.swift; sourceTree = "<group>"; };
+		33F1F5162B04468A005AEDB4 /* EarthquakesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesContract.swift; sourceTree = "<group>"; };
+		33F1F5192B047EA6005AEDB4 /* EarthquakesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesCell.swift; sourceTree = "<group>"; };
+		33F1F51B2B047F07005AEDB4 /* EarthquakesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarthquakesCell.xib; sourceTree = "<group>"; };
+		33F1F51F2B0545A2005AEDB4 /* EarthquakesDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarthquakesDetailView.xib; sourceTree = "<group>"; };
+		33F1F5212B0545AD005AEDB4 /* EarthquakesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesDetailView.swift; sourceTree = "<group>"; };
+		33F1F5232B056443005AEDB4 /* NodataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodataCell.swift; sourceTree = "<group>"; };
+		33F1F5252B05644B005AEDB4 /* NodataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NodataCell.xib; sourceTree = "<group>"; };
+		3B432A2B8ADD847147FFD396 /* Pods-imbAppIngreso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngreso.release.xcconfig"; path = "Target Support Files/Pods-imbAppIngreso/Pods-imbAppIngreso.release.xcconfig"; sourceTree = "<group>"; };
+		4260586A9EBF87EF048AAFCB /* Pods-imbAppIngresoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngresoTests.release.xcconfig"; path = "Target Support Files/Pods-imbAppIngresoTests/Pods-imbAppIngresoTests.release.xcconfig"; sourceTree = "<group>"; };
+		490FCB04D43D8AE2045E52F6 /* Pods_imbAppIngreso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imbAppIngreso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D099BF4C479D97087548E60 /* Pods_imbAppIngresoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imbAppIngresoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD62DE4D00FF146A436069A /* Pods_imbAppIngreso_imbAppIngresoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imbAppIngreso_imbAppIngresoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC16F596ADC181831BE25E7 /* Pods-imbAppIngresoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngresoTests.debug.xcconfig"; path = "Target Support Files/Pods-imbAppIngresoTests/Pods-imbAppIngresoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE18EF9EF388684E92DC5B14 /* Pods-imbAppIngreso-imbAppIngresoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imbAppIngreso-imbAppIngresoUITests.release.xcconfig"; path = "Target Support Files/Pods-imbAppIngreso-imbAppIngresoUITests/Pods-imbAppIngreso-imbAppIngresoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F1F4A32B03FBEB005AEDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069BF9CF7D4C9C7197761016 /* Pods_imbAppIngreso.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4BC2B03FBEC005AEDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C65B106A673CF7C63888E7 /* Pods_imbAppIngresoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4C62B03FBEC005AEDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48ABFB84E190E91CB1A2AD5 /* Pods_imbAppIngreso_imbAppIngresoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F1F49D2B03FBEB005AEDB4 = {
+			isa = PBXGroup;
+			children = (
+				33F1F4A82B03FBEB005AEDB4 /* imbAppIngreso */,
+				33F1F4C22B03FBEC005AEDB4 /* imbAppIngresoTests */,
+				33F1F4CC2B03FBEC005AEDB4 /* imbAppIngresoUITests */,
+				33F1F4A72B03FBEB005AEDB4 /* Products */,
+				7603A9EE40B32C45A7B0316F /* Pods */,
+				5103E7017DAB1158D76EAF4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33F1F4A72B03FBEB005AEDB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4A62B03FBEB005AEDB4 /* imbAppIngreso.app */,
+				33F1F4BF2B03FBEC005AEDB4 /* imbAppIngresoTests.xctest */,
+				33F1F4C92B03FBEC005AEDB4 /* imbAppIngresoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F1F4A82B03FBEB005AEDB4 /* imbAppIngreso */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4DC2B040255005AEDB4 /* FactoryApp.swift */,
+				33F1F51D2B054576005AEDB4 /* EarthquakesDetail */,
+				33F1F5042B044466005AEDB4 /* Earthquakes */,
+				33F1F4F22B04213E005AEDB4 /* RegisterModule */,
+				33F1F4DF2B040324005AEDB4 /* LoginModule */,
+				33F1F4DE2B040310005AEDB4 /* DB */,
+				33F1F4A92B03FBEB005AEDB4 /* AppDelegate.swift */,
+				33F1F4AB2B03FBEB005AEDB4 /* SceneDelegate.swift */,
+				33F1F4B52B03FBEC005AEDB4 /* Assets.xcassets */,
+				33F1F4B72B03FBEC005AEDB4 /* LaunchScreen.storyboard */,
+				33F1F4BA2B03FBEC005AEDB4 /* Info.plist */,
+			);
+			path = imbAppIngreso;
+			sourceTree = "<group>";
+		};
+		33F1F4C22B03FBEC005AEDB4 /* imbAppIngresoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4C32B03FBEC005AEDB4 /* imbAppIngresoTests.swift */,
+			);
+			path = imbAppIngresoTests;
+			sourceTree = "<group>";
+		};
+		33F1F4CC2B03FBEC005AEDB4 /* imbAppIngresoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4CD2B03FBEC005AEDB4 /* imbAppIngresoUITests.swift */,
+				33F1F4CF2B03FBEC005AEDB4 /* imbAppIngresoUITestsLaunchTests.swift */,
+			);
+			path = imbAppIngresoUITests;
+			sourceTree = "<group>";
+		};
+		33F1F4DE2B040310005AEDB4 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4B22B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodeld */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		33F1F4DF2B040324005AEDB4 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4E82B040626005AEDB4 /* LoginContract.swift */,
+				33F1F4E02B040381005AEDB4 /* View */,
+				33F1F4E42B0405C0005AEDB4 /* Interactor */,
+				33F1F4E32B0405B6005AEDB4 /* Presenter */,
+				33F1F4E52B0405C7005AEDB4 /* Entity */,
+				33F1F4EC2B040D20005AEDB4 /* Router */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		33F1F4E02B040381005AEDB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4E12B040396005AEDB4 /* LoginView.swift */,
+				33F1F4EF2B040F2C005AEDB4 /* LoginView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33F1F4E32B0405B6005AEDB4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4E62B0405F3005AEDB4 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		33F1F4E42B0405C0005AEDB4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4EA2B0406CD005AEDB4 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		33F1F4E52B0405C7005AEDB4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		33F1F4EC2B040D20005AEDB4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4ED2B040D3D005AEDB4 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		33F1F4F22B04213E005AEDB4 /* RegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4F42B04213E005AEDB4 /* RegisterContract.swift */,
+				33F1F4F52B04213E005AEDB4 /* Presenter */,
+				33F1F4F72B04213E005AEDB4 /* View */,
+				33F1F4FA2B04213E005AEDB4 /* Interactor */,
+				33F1F4FC2B04213E005AEDB4 /* Router */,
+			);
+			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		33F1F4F52B04213E005AEDB4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4F62B04213E005AEDB4 /* RegisterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		33F1F4F72B04213E005AEDB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4F82B04213E005AEDB4 /* RegisterView.xib */,
+				33F1F4F92B04213E005AEDB4 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33F1F4FA2B04213E005AEDB4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4FB2B04213E005AEDB4 /* RegisterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		33F1F4FC2B04213E005AEDB4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F4FD2B04213E005AEDB4 /* RegisterRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		33F1F5042B044466005AEDB4 /* Earthquakes */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5162B04468A005AEDB4 /* EarthquakesContract.swift */,
+				33F1F5052B04448E005AEDB4 /* View */,
+				33F1F5092B0444B1005AEDB4 /* Interactor */,
+				33F1F5072B04449C005AEDB4 /* Presenter */,
+				33F1F5062B044495005AEDB4 /* Entity */,
+				33F1F5082B0444A6005AEDB4 /* Router */,
+			);
+			path = Earthquakes;
+			sourceTree = "<group>";
+		};
+		33F1F5052B04448E005AEDB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5182B047E64005AEDB4 /* Cell */,
+				33F1F50A2B0444C6005AEDB4 /* EarthquakesView.swift */,
+				33F1F50C2B0444D0005AEDB4 /* EarthquakesView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33F1F5062B044495005AEDB4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5142B044613005AEDB4 /* EarthquakesEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		33F1F5072B04449C005AEDB4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5122B044608005AEDB4 /* EarthquakesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		33F1F5082B0444A6005AEDB4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5102B0445FC005AEDB4 /* EarthquakesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		33F1F5092B0444B1005AEDB4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F50E2B0445F1005AEDB4 /* EarthquakesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		33F1F5182B047E64005AEDB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F5192B047EA6005AEDB4 /* EarthquakesCell.swift */,
+				33F1F51B2B047F07005AEDB4 /* EarthquakesCell.xib */,
+				33F1F5232B056443005AEDB4 /* NodataCell.swift */,
+				33F1F5252B05644B005AEDB4 /* NodataCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		33F1F51D2B054576005AEDB4 /* EarthquakesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F51E2B054584005AEDB4 /* View */,
+			);
+			path = EarthquakesDetail;
+			sourceTree = "<group>";
+		};
+		33F1F51E2B054584005AEDB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33F1F51F2B0545A2005AEDB4 /* EarthquakesDetailView.xib */,
+				33F1F5212B0545AD005AEDB4 /* EarthquakesDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5103E7017DAB1158D76EAF4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490FCB04D43D8AE2045E52F6 /* Pods_imbAppIngreso.framework */,
+				BAD62DE4D00FF146A436069A /* Pods_imbAppIngreso_imbAppIngresoUITests.framework */,
+				7D099BF4C479D97087548E60 /* Pods_imbAppIngresoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7603A9EE40B32C45A7B0316F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C3EDB68BF806BF357CEE01 /* Pods-imbAppIngreso.debug.xcconfig */,
+				3B432A2B8ADD847147FFD396 /* Pods-imbAppIngreso.release.xcconfig */,
+				1AF55D0FBBE17595D4D604BA /* Pods-imbAppIngreso-imbAppIngresoUITests.debug.xcconfig */,
+				EE18EF9EF388684E92DC5B14 /* Pods-imbAppIngreso-imbAppIngresoUITests.release.xcconfig */,
+				EAC16F596ADC181831BE25E7 /* Pods-imbAppIngresoTests.debug.xcconfig */,
+				4260586A9EBF87EF048AAFCB /* Pods-imbAppIngresoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F1F4A52B03FBEB005AEDB4 /* imbAppIngreso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F1F4D32B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngreso" */;
+			buildPhases = (
+				ED2F369E09DA3847006AFBE0 /* [CP] Check Pods Manifest.lock */,
+				33F1F4A22B03FBEB005AEDB4 /* Sources */,
+				33F1F4A32B03FBEB005AEDB4 /* Frameworks */,
+				33F1F4A42B03FBEB005AEDB4 /* Resources */,
+				F3E0342E14B3C6F87A2B09AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imbAppIngreso;
+			productName = imbAppIngreso;
+			productReference = 33F1F4A62B03FBEB005AEDB4 /* imbAppIngreso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F1F4BE2B03FBEC005AEDB4 /* imbAppIngresoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F1F4D62B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngresoTests" */;
+			buildPhases = (
+				F2C16C4D4FFD21BBCD0ED73B /* [CP] Check Pods Manifest.lock */,
+				33F1F4BB2B03FBEC005AEDB4 /* Sources */,
+				33F1F4BC2B03FBEC005AEDB4 /* Frameworks */,
+				33F1F4BD2B03FBEC005AEDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F1F4C12B03FBEC005AEDB4 /* PBXTargetDependency */,
+			);
+			name = imbAppIngresoTests;
+			productName = imbAppIngresoTests;
+			productReference = 33F1F4BF2B03FBEC005AEDB4 /* imbAppIngresoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33F1F4C82B03FBEC005AEDB4 /* imbAppIngresoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F1F4D92B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngresoUITests" */;
+			buildPhases = (
+				9139D27911FBD75CEB4E1F0E /* [CP] Check Pods Manifest.lock */,
+				33F1F4C52B03FBEC005AEDB4 /* Sources */,
+				33F1F4C62B03FBEC005AEDB4 /* Frameworks */,
+				33F1F4C72B03FBEC005AEDB4 /* Resources */,
+				EBB87B1FBC05FB9BB1731777 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F1F4CB2B03FBEC005AEDB4 /* PBXTargetDependency */,
+			);
+			name = imbAppIngresoUITests;
+			productName = imbAppIngresoUITests;
+			productReference = 33F1F4C92B03FBEC005AEDB4 /* imbAppIngresoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F1F49E2B03FBEB005AEDB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					33F1F4A52B03FBEB005AEDB4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					33F1F4BE2B03FBEC005AEDB4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 33F1F4A52B03FBEB005AEDB4;
+					};
+					33F1F4C82B03FBEC005AEDB4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 33F1F4A52B03FBEB005AEDB4;
+					};
+				};
+			};
+			buildConfigurationList = 33F1F4A12B03FBEB005AEDB4 /* Build configuration list for PBXProject "imbAppIngreso" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F1F49D2B03FBEB005AEDB4;
+			productRefGroup = 33F1F4A72B03FBEB005AEDB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F1F4A52B03FBEB005AEDB4 /* imbAppIngreso */,
+				33F1F4BE2B03FBEC005AEDB4 /* imbAppIngresoTests */,
+				33F1F4C82B03FBEC005AEDB4 /* imbAppIngresoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F1F4A42B03FBEB005AEDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1F5202B0545A2005AEDB4 /* EarthquakesDetailView.xib in Resources */,
+				33F1F51C2B047F07005AEDB4 /* EarthquakesCell.xib in Resources */,
+				33F1F4B92B03FBEC005AEDB4 /* LaunchScreen.storyboard in Resources */,
+				33F1F5002B04213E005AEDB4 /* RegisterView.xib in Resources */,
+				33F1F50D2B0444D0005AEDB4 /* EarthquakesView.xib in Resources */,
+				33F1F4B62B03FBEC005AEDB4 /* Assets.xcassets in Resources */,
+				33F1F5262B05644B005AEDB4 /* NodataCell.xib in Resources */,
+				33F1F4F02B040F2C005AEDB4 /* LoginView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4BD2B03FBEC005AEDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4C72B03FBEC005AEDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9139D27911FBD75CEB4E1F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imbAppIngreso-imbAppIngresoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB87B1FBC05FB9BB1731777 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso-imbAppIngresoUITests/Pods-imbAppIngreso-imbAppIngresoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso-imbAppIngresoUITests/Pods-imbAppIngreso-imbAppIngresoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso-imbAppIngresoUITests/Pods-imbAppIngreso-imbAppIngresoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2F369E09DA3847006AFBE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imbAppIngreso-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C16C4D4FFD21BBCD0ED73B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imbAppIngresoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E0342E14B3C6F87A2B09AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso/Pods-imbAppIngreso-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso/Pods-imbAppIngreso-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imbAppIngreso/Pods-imbAppIngreso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F1F4A22B03FBEB005AEDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1F4E72B0405F3005AEDB4 /* LoginPresenter.swift in Sources */,
+				33F1F4DD2B040255005AEDB4 /* FactoryApp.swift in Sources */,
+				33F1F4AA2B03FBEB005AEDB4 /* AppDelegate.swift in Sources */,
+				33F1F4FF2B04213E005AEDB4 /* RegisterPresenter.swift in Sources */,
+				33F1F5222B0545AD005AEDB4 /* EarthquakesDetailView.swift in Sources */,
+				33F1F51A2B047EA6005AEDB4 /* EarthquakesCell.swift in Sources */,
+				33F1F4B42B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodeld in Sources */,
+				33F1F5032B04213E005AEDB4 /* RegisterRouter.swift in Sources */,
+				33F1F4EB2B0406CD005AEDB4 /* LoginInteractor.swift in Sources */,
+				33F1F4EE2B040D3D005AEDB4 /* LoginRouter.swift in Sources */,
+				33F1F4FE2B04213E005AEDB4 /* RegisterContract.swift in Sources */,
+				33F1F4E22B040396005AEDB4 /* LoginView.swift in Sources */,
+				33F1F5012B04213E005AEDB4 /* RegisterView.swift in Sources */,
+				33F1F5022B04213E005AEDB4 /* RegisterInteractor.swift in Sources */,
+				33F1F4AC2B03FBEB005AEDB4 /* SceneDelegate.swift in Sources */,
+				33F1F5242B056443005AEDB4 /* NodataCell.swift in Sources */,
+				33F1F50B2B0444C6005AEDB4 /* EarthquakesView.swift in Sources */,
+				33F1F4E92B040626005AEDB4 /* LoginContract.swift in Sources */,
+				33F1F50F2B0445F1005AEDB4 /* EarthquakesInteractor.swift in Sources */,
+				33F1F5172B04468A005AEDB4 /* EarthquakesContract.swift in Sources */,
+				33F1F5152B044613005AEDB4 /* EarthquakesEntity.swift in Sources */,
+				33F1F5112B0445FC005AEDB4 /* EarthquakesRouter.swift in Sources */,
+				33F1F5132B044608005AEDB4 /* EarthquakesPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4BB2B03FBEC005AEDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1F4C42B03FBEC005AEDB4 /* imbAppIngresoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F1F4C52B03FBEC005AEDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F1F4CE2B03FBEC005AEDB4 /* imbAppIngresoUITests.swift in Sources */,
+				33F1F4D02B03FBEC005AEDB4 /* imbAppIngresoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F1F4C12B03FBEC005AEDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F1F4A52B03FBEB005AEDB4 /* imbAppIngreso */;
+			targetProxy = 33F1F4C02B03FBEC005AEDB4 /* PBXContainerItemProxy */;
+		};
+		33F1F4CB2B03FBEC005AEDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F1F4A52B03FBEB005AEDB4 /* imbAppIngreso */;
+			targetProxy = 33F1F4CA2B03FBEC005AEDB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33F1F4B72B03FBEC005AEDB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F1F4B82B03FBEC005AEDB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F1F4D12B03FBEC005AEDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33F1F4D22B03FBEC005AEDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F1F4D42B03FBEC005AEDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C3EDB68BF806BF357CEE01 /* Pods-imbAppIngreso.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imbAppIngreso/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngreso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F1F4D52B03FBEC005AEDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B432A2B8ADD847147FFD396 /* Pods-imbAppIngreso.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imbAppIngreso/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngreso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33F1F4D72B03FBEC005AEDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC16F596ADC181831BE25E7 /* Pods-imbAppIngresoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngresoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imbAppIngreso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imbAppIngreso";
+			};
+			name = Debug;
+		};
+		33F1F4D82B03FBEC005AEDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4260586A9EBF87EF048AAFCB /* Pods-imbAppIngresoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngresoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imbAppIngreso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imbAppIngreso";
+			};
+			name = Release;
+		};
+		33F1F4DA2B03FBEC005AEDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF55D0FBBE17595D4D604BA /* Pods-imbAppIngreso-imbAppIngresoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngresoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imbAppIngreso;
+			};
+			name = Debug;
+		};
+		33F1F4DB2B03FBEC005AEDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE18EF9EF388684E92DC5B14 /* Pods-imbAppIngreso-imbAppIngresoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269XSA64SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yesid.pokemonApp.imbAppIngresoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imbAppIngreso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F1F4A12B03FBEB005AEDB4 /* Build configuration list for PBXProject "imbAppIngreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F1F4D12B03FBEC005AEDB4 /* Debug */,
+				33F1F4D22B03FBEC005AEDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F1F4D32B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F1F4D42B03FBEC005AEDB4 /* Debug */,
+				33F1F4D52B03FBEC005AEDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F1F4D62B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngresoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F1F4D72B03FBEC005AEDB4 /* Debug */,
+				33F1F4D82B03FBEC005AEDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F1F4D92B03FBEC005AEDB4 /* Build configuration list for PBXNativeTarget "imbAppIngresoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F1F4DA2B03FBEC005AEDB4 /* Debug */,
+				33F1F4DB2B03FBEC005AEDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33F1F4B22B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33F1F4B32B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodel */,
+			);
+			currentVersion = 33F1F4B32B03FBEB005AEDB4 /* imbAppIngreso.xcdatamodel */;
+			path = imbAppIngreso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33F1F49E2B03FBEB005AEDB4 /* Project object */;
+}
